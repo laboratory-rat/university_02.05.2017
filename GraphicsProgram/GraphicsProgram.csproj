@@ -69,6 +69,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bin\Debug\GraphicsProgram.exe.config" />
+    <None Include="bin\Release\GraphicsProgram.exe.config" />
+    <None Include="bin\Release\prog.7z" />
+    <None Include="bin\Release\prog\GraphicsProgram.exe.config" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ThirdChart.resx">
@@ -80,6 +84,14 @@
     <EmbeddedResource Include="SimpleChart.resx">
       <DependentUpon>SimpleChart.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\GraphicsProgram.exe" />
+    <Content Include="bin\Debug\GraphicsProgram.pdb" />
+    <Content Include="bin\Release\GraphicsProgram.exe" />
+    <Content Include="bin\Release\GraphicsProgram.pdb" />
+    <Content Include="bin\Release\prog\GraphicsProgram.exe" />
+    <Content Include="bin\Release\prog\GraphicsProgram.pdb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
